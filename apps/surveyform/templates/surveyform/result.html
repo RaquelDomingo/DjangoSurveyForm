@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Results</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'surveyform/css/style.css' %}">
+  </head>
+  <body>
+    <div id="surveyResults">
+      <h2>Thank you for taking this survey!</h2>
+      <p>You have filled this out {{count}} times!</p>
+      <h3>Submitted Info</h3>
+      <p>Your Name:  {{name}}</p>
+      <p>Your Location:  {{location}}</p>
+      <p>Your Favorite Language:  {{language}}</p>
+      <p>Comment:  {{comment}}</p>
+    </div>
+    <a href="/">Back</a>
+  </body>
+</html>

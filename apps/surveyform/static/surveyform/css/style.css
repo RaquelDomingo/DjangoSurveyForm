@@ -1,0 +1,33 @@
+.container{
+    background-color: palegreen;
+    padding: 10px 10px 10px 20px;
+    width: 500px;
+
+}
+
+h1, h3 {
+  text-decoration: underline;
+}
+
+label, form {
+  display: block;
+  margin: 10px;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+input.submit {
+  color: blue;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-size: 12px;
+  background: #e6faff;
+}
+
+#surveyResults{
+    background-color: palegreen;
+    padding: 10px 10px 10px 20px;
+    width: 500px;
+}
